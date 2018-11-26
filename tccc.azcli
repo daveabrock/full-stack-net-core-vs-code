@@ -1,9 +1,7 @@
 dotnet --version;
+
 dotnet new;
-cls;
 dotnet new --language C#;
+
 dotnet new mvc;
 dotnet run;
-dotnet ef;
-
-dotnet ef dbcontext scaffold "Server=(localdb)\mssqllocaldb;Database=RestaurantDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -f -c RestaurantContext;
